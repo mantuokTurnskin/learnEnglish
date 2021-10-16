@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
 .line-sample,
 .full-sample {
@@ -9,5 +13,23 @@
 
 .line-sample__content{
     display: flex;
-    
+
+}
+
+.line-sample__actions{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.line-sample__play-button,
+.line-sample__translate-button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+}
+.line-sample__play-button{
+    background-image: url();
+}
+.line-sample__play-button{
+    background-image: url();
 }
