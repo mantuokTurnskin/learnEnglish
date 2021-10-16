@@ -1,0 +1,13 @@
+
+.line-sample,
+.full-sample {
+    margin: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.line-sample__content{
+    display: flex;
+    
+}
